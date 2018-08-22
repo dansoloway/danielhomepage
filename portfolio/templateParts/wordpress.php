@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- ================ -->
-<div class="section clearfix">
+<div class="section clearfix" id="wordpress">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -23,7 +23,6 @@
                             </div>
                         </div>
                         <p>Whether it's a full blown custom site, tweaks to an existing site, or a simple landing page to get you up and running, Daniel has the experience to get the job done right. </p>
-                        <a href="<?php echo WEB_PATH ?>#contact" class="btn btn-white">Contact Me to Learn More</a>
                         <div class="space hidden-md hidden-lg"></div>
                     </div>
                     <div class="col-md-6">

@@ -1,8 +1,6 @@
 <?php
-define('LOCAL_PATH', '/Users/danielsoloway/Sites/danielsoloway/portfolio/');
-define('WEB_PATH', '/danielsoloway/portfolio/');
-define('RIP_PATH', '/danielsoloway/portfolio/templateFiles/');
 
+require_once('config.php');
 // https://htmlcoder.me/preview/idea/v.1.7/html/
 
 
@@ -48,7 +46,7 @@ define('RIP_PATH', '/danielsoloway/portfolio/templateFiles/');
 			</header>
 			<!-- header end -->
 
-	
+
 			<!-- require bannerNew-->
 			<?php require_once LOCAL_PATH . 'templateParts/' . 'bannerNew.php'; ?>
 
@@ -62,20 +60,22 @@ define('RIP_PATH', '/danielsoloway/portfolio/templateFiles/');
 			<!-- require features-->
 			<?php require_once LOCAL_PATH . 'templateParts/' . 'features.php'; ?>
 
-			<!-- require aboutUs-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'aboutUs.php'; ?>
+			<!-- require Wordpress-->
+			<?php require_once LOCAL_PATH . 'templateParts/' . 'wordpress.php'; ?>
 
+			<!-- require testimonials -->
+			<?php require_once LOCAL_PATH . 'templateParts/testimonials.php'?>
+			
 			<!-- require contact -->
 			<?php require_once LOCAL_PATH . 'templateParts/contact.php'?>
 
 			<!-- require whyChoose -->
-			<?php require_once LOCAL_PATH . 'templateParts/whyChoose.php'?>
+			<?php // require_once LOCAL_PATH . 'templateParts/whyChoose.php'?>
 
-			<!-- require testimonials -->
-			<?php require_once LOCAL_PATH . 'templateParts/testimonials.php'?>
+
 
 			<!-- require ourWork -->
-			<?php require_once LOCAL_PATH . 'templateParts/ourWorkSlides.php'?>
+			<?php // require_once LOCAL_PATH . 'templateParts/ourWorkSlides.php'?>
 
 			<!-- require footer -->
 			<?php require_once LOCAL_PATH . 'templateParts/footer.php'?>

@@ -42,5 +42,43 @@
 		<!-- Custom css -->
 		<link href="<?php echo RIP_PATH ?>custom.css" rel="stylesheet">
 
+		<style>
+		@media screen and (min-width: 768px){
+			.jumbotron h1, .jumbotron .h1 {
+			    font-size: 38px;
+			    margin-top: 0px;
+			}
+
+			.jumbotron {
+		    padding-bottom: 0px;
+			}
+
+			.jumbotron p {
+    			font-size: 16px;
+			}
+
+			.box-style-1{
+				height:386px;
+			}
+
+			.box-style-1 p{
+				height: 95px;
+			}
+
+			#logo{
+				width:70px;
+			}
+
+			.navbar-nav > li {
+			    float: left;
+			    list-style-type: none;
+			    padding: 0px 20px;
+			    font-size: 21px;
+			}
+		}
+		</style>
+
+		
+
 
 	</head>

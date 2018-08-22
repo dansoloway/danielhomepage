@@ -4,7 +4,7 @@
 
     <!-- .footer start -->
     <!-- ================ -->
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -54,7 +54,7 @@
                         <div class="gallery row">
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-1.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-1.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -62,7 +62,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-2.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-2.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -70,7 +70,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-3.jpg" alt="">
+                                    <img src="<?php//  echo RIP_PATH ?>gallery-3.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-4.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-4.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-5.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-5.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -94,7 +94,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-6.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-6.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-7.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-7.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-8.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-8.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -118,7 +118,7 @@
                             </div>
                             <div class="gallery-item col-xs-4">
                                 <div class="overlay-container">
-                                    <img src="<?php echo RIP_PATH ?>gallery-9.jpg" alt="">
+                                    <img src="<?php // echo RIP_PATH ?>gallery-9.jpg" alt="">
                                     <a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-item.html" class="overlay small">
                                         <i class="fa fa-link"></i>
                                     </a>
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright © 2018 IDea. All Rights Reserved</p>
+                    <p>Copyright © <?php echo date('Y')?> Daniel Soloway. All Rights Reserved</p>
                 </div>
                 <div class="col-md-6">
                     <nav class="navbar navbar-default">
@@ -152,15 +152,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div class="collapse navbar-collapse" id="navbar-collapse-2">
-                            <ul class="nav navbar-nav">
-                                <li><a href="https://htmlcoder.me/preview/idea/v.1.7/html/index.html">Home</a></li>
-                                <li><a href="https://htmlcoder.me/preview/idea/v.1.7/html/page-about.html">About</a></li>
-                                <li><a href="https://htmlcoder.me/preview/idea/v.1.7/html/blog-right-sidebar.html">Blog</a></li>
-                                <li><a href="https://htmlcoder.me/preview/idea/v.1.7/html/portfolio-3col.html">Portfolio</a></li>
-                                <li><a href="https://htmlcoder.me/preview/idea/v.1.7/html/page-contact.html">Contact</a></li>
-                            </ul>
-                        </div>
+
                     </nav>
                 </div>
             </div>
@@ -170,3 +162,42 @@
 
 </footer>
 <!-- footer end -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+// Select all links with hashes
+$('a[href*="#"]')
+// Remove links that don't actually link to anything
+.not('[href="#"]')
+.not('[href="#0"]')
+.click(function(event) {
+// On-page links
+if (
+location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+&&
+location.hostname == this.hostname
+) {
+// Figure out element to scroll to
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+// Does a scroll target exist?
+if (target.length) {
+// Only prevent default if animation is actually gonna happen
+event.preventDefault();
+$('html, body').animate({
+  scrollTop: target.offset().top
+}, 1000, function() {
+  // Callback after animation
+  // Must change focus!
+  var $target = $(target);
+  $target.focus();
+  if ($target.is(":focus")) { // Checking if the target was focused
+    return false;
+  } else {
+    $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+    $target.focus(); // Set focus again
+  };
+});
+}
+}
+});
+</script>

@@ -3,21 +3,27 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">IDea Clean and Unique Design</h4>
+                <h4 class="modal-title" id="myModalLabel">A Short Bio</h4>
             </div>
             <div class="modal-body">
-                <p>Consectetur adipisicing elit. Nemo architecto debitis dolorum ullam in ut sint, odit maiores eaque explicabo, repellendus minima soluta sunt! Nisi minima blanditiis voluptate, ut atque.</p>
+                <p>I was born in Michigan, moved to Israel when I was 27. I live in Mevaseret Zion (outside of Jerusalem), with my lovely wife and two super-awesome kids.</p>
+                <p>Other than web programming, my other interests include:</p>
                 <ul class="list-icons">
-                    <li><i class="fa fa-check"></i> Nisi minima blanditiis voluptate</li>
-                    <li><i class="fa fa-check"></i> Officiis nisi nam doloribus explicabo</li>
-                    <li><i class="fa fa-check"></i> Debitis delectus corporis aspernatur</li>
-                    <li><i class="fa fa-check"></i> Dolore temporibus odio distinctio</li>
-                    <li><i class="fa fa-check"></i> Reprehenderit optio unde accusantium quia</li>
+                    <li><i class="fa fa-check"></i> Playing guitar (rock, jazz, reggae, funk... whatever).</li>
+                    <li><i class="fa fa-check"></i> Teaching English, and education in general</li>
+                    <li><i class="fa fa-check"></i> Learning Torah</li>
+                    <li><i class="fa fa-check"></i> Playing and teaching chess</li>
+                    <li><i class="fa fa-check"></i> Watching football. I am a Detroit Lions (unfortunately...)</li>
+                    <li><i class="fa fa-check"></i> Reading</li>
                 </ul>
-                <p>Culpa expedita! Quisquam, itaque officiis nisi nam doloribus explicabo possimus, dolorum alias provident maxime temporibus, enim voluptatibus! Molestias, accusantium cum impedit sint velit exercitationem deserunt, corporis magni provident earum, ullam iusto voluptatem iste animi inventore ab cupiditate quod laborum quasi libero doloremque obcaecati eius. Ut, reprehenderit optio unde accusantium quia qui! Debitis delectus corporis aspernatur nemo aut, odio harum ea repellendus quidem, saepe, incidunt? Assumenda deserunt unde minima aspernatur ducimus velit molestiae, minus eius inventore, dolore temporibus odio distinctio optio.</p>
+                <p>Wanna see a video by my old indie-rock band, Jotto?!?</p>
+
+            </div>
+            <div style="text-align:center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7jw_YKVo9y8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal"><i class="fa fa-check"></i> Ok</button>
+                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal"><i class="fa fa-check"></i>Enough already, close this window already!</button>
             </div>
         </div>
     </div>

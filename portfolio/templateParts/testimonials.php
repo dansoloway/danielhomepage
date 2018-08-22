@@ -26,7 +26,8 @@ if ($handle) {
 ?>
 <!-- section start -->
 <!-- ================ -->
-<div class="section gray-bg clearfix">
+<div class="section gray-bg clearfix" id="testimonials">
+    <h1 style="text-align:center">Testimonials</h1>
 	<div class="owl-carousel content-slider owl-loaded owl-drag">
 		<div class="owl-stage-outer">
 			<div class="owl-stage" style="transform: translate3d(-5715px, 0px, 0px); transition: all 0.9s ease 0s; width: 13335px;">

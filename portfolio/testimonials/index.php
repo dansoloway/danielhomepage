@@ -1,8 +1,7 @@
 <?php
 
-require_once('config.php');
-// https://htmlcoder.me/preview/idea/v.1.7/html/
-
+require_once('../config.php');
+require_once(LOCAL_PATH . 'fetchTestimonials.php');
 
 ?>
 
@@ -17,8 +16,7 @@ require_once('config.php');
 	<body class="front wide" style="">
 
 
-		<!-- require modalPopUp-->
-		<?php require_once LOCAL_PATH . 'templateParts/' . 'modalPopUp.php'; ?>
+
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -46,14 +44,34 @@ require_once('config.php');
 			</header>
 			<!-- header end -->
 
+            <div class="section gray-bg clearfix anchorLinkSpacer" style="margin-top:0px" id="testimonials">
+                <h1 style="text-align:center">All Testimonials</h1>
 
-			<!-- require bannerNew-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'bannerContactSuccess.php'; ?>
 
-			<!-- require sliderOrig-->
-			<?php // require_once LOCAL_PATH . 'templateParts/' . 'sliderOrig.php'; ?>
-			<!-- banner end -->
+                        <?php for($i = 0; $i < count($array); $i++) {
+                        ?>
+        					<div class="testimonial">
+        						<div class="container">
+        							<div class="row">
+        								<div class="col-md-12">
+        									<h2 class="title"><?php echo $array[$i]['Highlights'] ?></h2>
+        									<div class="testimonial-image">
+        										<img src="<?php echo WEB_PATH ?>images/testimonials/<?php echo $array[$i]['Picture'] ?>.jpeg" alt="<?php echo $array[$i]['Name'] ?>" title="<?php echo $array[$i]['Name'] ?>" class="img-circle">
+        									</div>
+        									<div class="testimonial-body">
+        										<p><?php echo $array[$i]['Text'] ?></p>
+        										<div class="testimonial-info-1">- <?php echo $array[$i]['Name'] ?></div>
+        										<div class="testimonial-info-2"><?php echo $array[$i]['Relationship'] ?></div>
+        									</div>
+                                            <br><br>
+        								</div>
+        							</div>
+        						</div>
+        					</div>
+                    <?php } ?>
+        		</div>
 
+            <!-- section end -->
 
 			<!-- require footer -->
 			<?php require_once LOCAL_PATH . 'templateParts/footer.php'?>
@@ -74,24 +92,9 @@ require_once('config.php');
 		<script src="<?php echo RIP_PATH ?>imagesloaded.pkgd.min.js"></script>
 		<script src="<?php echo RIP_PATH ?>isotope.pkgd.min.js"></script>
 
-		<!-- Owl carousel javascript -->
-		<script src="<?php echo RIP_PATH ?>owl.carousel.js"></script>
-
-		<!-- Magnific Popup javascript -->
-		<script src="<?php echo RIP_PATH ?>jquery.magnific-popup.min.js"></script>
-
-		<!-- Appear javascript -->
-		<script src="<?php echo RIP_PATH ?>jquery.appear.js"></script>
-
-		<!-- Count To javascript -->
-		<script src="<?php echo RIP_PATH ?>jquery.countTo.js"></script>
 
 		<!-- Initialization of Plugins -->
 		<script src="<?php echo RIP_PATH ?>template.js"></script>
-
-		<!-- Custom Scripts -->
-		<script src="<?php echo RIP_PATH ?>custom.js"></script>
-
 
 
 

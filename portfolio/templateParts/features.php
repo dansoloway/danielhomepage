@@ -31,7 +31,7 @@
                         <div class="col-sm-4">
                             <div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
                                 <i class="fa fa-sitemap"></i>
-                                <h2>Quick and Dirty Sites</h2>
+                                <h2 style="font-size:24px">Quick and Dirty Sites</h2>
                                 <p>Don't reinvent the wheel - take advantages of free resources and get the job done quickly, professionally, and cheaply.</p>
                                 <a href="" class="btn-default btn readMoreFalse">Read More</a>
                             </div>
@@ -42,6 +42,6 @@
         </div>
     </div>
     <!-- main end -->
-
+<div id="wordpress"></div>
 </section>
 <!-- main-container end -->

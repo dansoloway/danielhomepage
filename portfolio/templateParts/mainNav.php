@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#wordpress">Wordpress Expert</a>
+                <a class="nav-link" href="<?php echo WEB_PATH?>#wordpress">Wordpress Expert</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
+                <a class="nav-link" href="<?php echo WEB_PATH?>#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#webServices">Web Services</a>
+                <a class="nav-link" href="<?php echo WEB_PATH?>#webServices">Web Services</a>
             </li>
             <li>
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="<?php echo WEB_PATH?>#contact">Contact</a>
             </li>
         </ul>
     </div>

@@ -1,33 +1,13 @@
-<?php
-
-$array = $fields = array(); $i = 0;
-$csvPath = LOCAL_PATH . 'inc/testimonials.csv';
-$handle = @fopen($csvPath, "r");
-if ($handle) {
-    while (($row = fgetcsv($handle, 4096)) !== false) {
-        if (empty($fields)) {
-            $fields = $row;
-            continue;
-        }
-        foreach ($row as $k=>$value) {
-            $array[$i][$fields[$k]] = $value;
-        }
-        $i++;
-    }
-    if (!feof($handle)) {
-        echo "Error: unexpected fgets() fail\n";
-    }
-    fclose($handle);
-}
-// echo "<pre>";
-// var_dump($array);
-// echo "</pre>";
-// echo "<h1>" . count($array) . "</h1>";
-?>
+<?php require_once LOCAL_PATH . 'fetchTestimonials.php'?>
 <!-- section start -->
 <!-- ================ -->
 <div class="section gray-bg clearfix anchorLinkSpacer" id="testimonials">
     <h1 style="text-align:center">Testimonials</h1>
+    <h3 style="text-align:center">
+        <a style="color:#3d78d8" href="<?php echo WEB_PATH ?>/testimonials">
+            View all Testimonials
+        </a>
+    </h3>
 	<div class="owl-carousel content-slider owl-loaded owl-drag">
 		<div class="owl-stage-outer">
 			<div class="owl-stage" style="transform: translate3d(-5715px, 0px, 0px); transition: all 0.9s ease 0s; width: 13335px;">
@@ -62,12 +42,3 @@ if ($handle) {
 	</div>
 </div>
 <!-- section end -->
-
-<!-- STAM
-lass="owl-item cloned"
-class="owl-item"
-class="owl-item active"
-class="owl-item"
-class="owl-item cloned"
-class="owl-item cloned"
--->

@@ -1,8 +1,6 @@
 <?php
 // to do!!
 // mobile menu center
-// contact success form
-// testimonials
 
 require_once('config.php');
 // https://htmlcoder.me/preview/idea/v.1.7/html/
@@ -41,7 +39,7 @@ require_once('config.php');
 				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
 				 dark: dark header version e.g. <header class="header dark clearfix">
 			================ -->
-			<header class="header fixed clearfix navbar-fixed-top"><!-- navbar-fixed-top -->
+			<header class="header fixed clearfix"><!-- navbar-fixed-top -->
 				<div class="container">
 
 					<!-- require modalPopUp-->

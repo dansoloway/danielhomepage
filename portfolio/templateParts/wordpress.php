@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- ================ -->
-<div class="section clearfix" id="wordpress">
+<div class="section clearfix anchorLinkSpacer" id="wordpress">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

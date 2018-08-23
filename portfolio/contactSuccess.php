@@ -1,8 +1,4 @@
 <?php
-// to do!!
-// mobile menu center
-// contact success form
-// testimonials
 
 require_once('config.php');
 // https://htmlcoder.me/preview/idea/v.1.7/html/
@@ -58,28 +54,6 @@ require_once('config.php');
 			<?php // require_once LOCAL_PATH . 'templateParts/' . 'sliderOrig.php'; ?>
 			<!-- banner end -->
 
-			<!-- require callToAction-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'callToAction.php'; ?>
-
-			<!-- require features-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'features.php'; ?>
-
-			<!-- require Wordpress-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'wordpress.php'; ?>
-
-			<!-- require testimonials -->
-			<?php require_once LOCAL_PATH . 'templateParts/testimonials.php'?>
-
-			<!-- require contact -->
-			<?php require_once LOCAL_PATH . 'templateParts/contact.php'?>
-
-			<!-- require whyChoose -->
-			<?php // require_once LOCAL_PATH . 'templateParts/whyChoose.php'?>
-
-
-
-			<!-- require ourWork -->
-			<?php // require_once LOCAL_PATH . 'templateParts/ourWorkSlides.php'?>
 
 			<!-- require footer -->
 			<?php require_once LOCAL_PATH . 'templateParts/footer.php'?>
@@ -114,6 +88,10 @@ require_once('config.php');
 
 		<!-- Initialization of Plugins -->
 		<script src="<?php echo RIP_PATH ?>template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script src="<?php echo RIP_PATH ?>custom.js"></script>
+
 
 
 

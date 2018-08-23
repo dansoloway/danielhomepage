@@ -1,25 +1,30 @@
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-5">
 
         <!-- header-left start -->
         <!-- ================ -->
+
         <div class="header-left clearfix">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="/l"><img id="logo" src="<?php echo WEB_PATH ?>images/logo1.png" alt="IDea"></a>
+                    </div>
+                </div>
 
-            <!-- logo -->
-            <div class="logo">
-                <a href="/l"><img id="logo" src="<?php echo WEB_PATH ?>images/logo1.png" alt="IDea"></a>
+                <!-- name-and-slogan -->
+                <div class="col-md-9">
+
+                    <div class="site-slogan">
+                        <h1>Daniel Soloway <br/>Web Productions</h1>
+                    </div>
+                </div>
             </div>
-
-            <!-- name-and-slogan -->
-            <div class="site-slogan">
-                Daniel Soloway - Web Productions
-            </div>
-
-        </div>
         <!-- header-left end -->
-
+        </div>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-7">
 
         <!-- header-right start -->
         <!-- ================ -->

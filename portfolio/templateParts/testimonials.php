@@ -26,7 +26,7 @@ if ($handle) {
 ?>
 <!-- section start -->
 <!-- ================ -->
-<div class="section gray-bg clearfix" id="testimonials">
+<div class="section gray-bg clearfix anchorLinkSpacer" id="testimonials">
     <h1 style="text-align:center">Testimonials</h1>
 	<div class="owl-carousel content-slider owl-loaded owl-drag">
 		<div class="owl-stage-outer">

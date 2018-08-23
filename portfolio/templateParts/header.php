@@ -3,19 +3,15 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<title>Daniel IDea</title>
-		<meta name="description" content="IDea a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="author">
-	    <meta name="robots" content="noimageindex">
+		<title>Daniel Soloway - Web Programmer</title>
+		<meta name="description" content="Daniel Soloway - Web Programmer">
+		<meta name="author" content="Daniel Soloway">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="https://htmlcoder.me/preview/idea/v.1.7/html/images/favicon.ico">
-
 		<!-- Web Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Rancho" rel="stylesheet">
 
 		<!-- Bootstrap core CSS -->
 		<link href="<?php echo RIP_PATH ?>bootstrap.css" rel="stylesheet">
@@ -32,53 +28,23 @@
 		<link href="<?php echo RIP_PATH ?>owl.carousel.css" rel="stylesheet">
 		<link href="<?php echo RIP_PATH ?>owl.theme.default.min.css" rel="stylesheet">
 
-		<!-- IDea core CSS file -->
+		<!-- template core CSS file -->
 		<link href="<?php echo RIP_PATH ?>style.css" rel="stylesheet">
 
-		<!-- Color Scheme (In order to change the color scheme, replace the red.css with the color scheme that you prefer)-->
+
 		<link href="<?php echo RIP_PATH ?>blue.css" data-style="styles-no-cookie" rel="stylesheet">
-		<link href="<?php echo RIP_PATH ?>style-switcher.css" rel="stylesheet">
 
 		<!-- Custom css -->
-		<link href="<?php echo RIP_PATH ?>custom.css" rel="stylesheet">
+		<link href="<?php echo WEB_PATH ?>css/stylesCustom.css" rel="stylesheet">
 
-		<style>
-		@media screen and (min-width: 768px){
-			.jumbotron h1, .jumbotron .h1 {
-			    font-size: 38px;
-			    margin-top: 0px;
-			}
-
-			.jumbotron {
-		    padding-bottom: 0px;
-			}
-
-			.jumbotron p {
-    			font-size: 16px;
-			}
-
-			.box-style-1{
-				height:386px;
-			}
-
-			.box-style-1 p{
-				height: 95px;
-			}
-
-			#logo{
-				width:70px;
-			}
-
-			.navbar-nav > li {
-			    float: left;
-			    list-style-type: none;
-			    padding: 0px 20px;
-			    font-size: 21px;
-			}
-		}
-		</style>
-
-		
-
+		<!--  Favicon Stuff -->
+		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo WEB_PATH ?>apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo WEB_PATH ?>favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo WEB_PATH ?>favicon-16x16.png">
+		<link rel="icon" sizes="32x32" href="<?php echo WEB_PATH ?>favicon-32x32.png">
+		<link rel="manifest" href="<?php echo WEB_PATH ?>site.webmanifest">
+		<link rel="mask-icon" href="<?php echo WEB_PATH ?>safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
 	</head>

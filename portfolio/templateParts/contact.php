@@ -1,4 +1,4 @@
-<section class="main-container" style="margin-top: 0px;" id="contact">
+<section class="main-container anchorLinkSpacer" style="margin-top: 0px;" id="contact">
 
 				<div class="container">
 					<div class="row">

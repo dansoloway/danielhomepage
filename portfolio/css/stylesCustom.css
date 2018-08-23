@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px){
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 38px;
+        margin-top: 0px;
+    }
+
+    .jumbotron {
+        padding: 10px 0 0;
+    }
+
+    .jumbotron p {
+        font-size: 16px;
+    }
+
+    .box-style-1{
+        height:386px;
+    }
+
+    .box-style-1 p{
+        height: 95px;
+    }
+
+    #logo{
+        width:70px;
+    }
+
+    .navbar-nav > li {
+        float: left;
+        list-style-type: none;
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+
+    .navbar-nav{
+        padding-top: 30px;
+    }
+
+    .header {
+        padding: 5px 0;
+    }
+
+    .famPic img{
+        margin-top:10px;
+    }
+
+    .jumbotron h3{
+        font-weight: bold;
+    }
+
+    .anchorLinkSpacer{
+        padding-top: 110px;
+        margin-top: -110px;
+    }
+}
+
+/* Breakpoints */
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 767px) {
+        .toggleNav{
+            display:block;
+        }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        .toggleNav{
+            display:none;
+        }
+
+        .header{
+            height:110px;
+        }
+
+        .jumbotron{
+            margin-top:110px;
+        }
+
+        .site-slogan h1{
+            font-family: 'Rancho', cursive;
+            font-size: 35px;
+            color: #4a8cdd;
+            font-weight: bold;
+            margin-top:5px;
+        }
+    }
+
+    @media only screen and (min-width: 880px) {
+
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+
+    }

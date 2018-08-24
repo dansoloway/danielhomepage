@@ -31,7 +31,9 @@
 												<textarea class="form-control" name="message" rows="6" id="message" placeholder=""></textarea>
 												<i class="fa fa-pencil form-control-feedback"></i>
 											</div>
+											<div class="g-recaptcha" data-sitekey="6LdTAWwUAAAAACHQVO4e8URVLFXK-_VBIjBU5qK0"></div>
 											<input type="submit" value="Do It!" class="submit-button btn btn-default">
+
 										</form>
 									</div>
 								</div>

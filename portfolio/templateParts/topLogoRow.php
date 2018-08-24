@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-4 col-lg-5">
 
         <!-- header-left start -->
         <!-- ================ -->
@@ -24,7 +24,7 @@
         <!-- header-left end -->
         </div>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-8 col-lg-7">
 
         <!-- header-right start -->
         <!-- ================ -->

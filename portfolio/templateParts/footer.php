@@ -12,20 +12,6 @@
                 <div class="col-md-6">
                     <p>Copyright © <?php echo date('Y')?> Daniel Soloway. All Rights Reserved</p>
                 </div>
-                <div class="col-md-6">
-                    <nav class="navbar navbar-default">
-                        <!-- Toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-
-                    </nav>
-                </div>
             </div>
         </div>
     </div>

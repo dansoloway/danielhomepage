@@ -46,6 +46,12 @@
     .jumbotron h3{
         font-weight: bold;
     }
+
+    .navbar-toggle2{
+        display:none;
+    }
+
+
     /*
     .anchorLinkSpacer{
         padding-top: 110px;
@@ -59,6 +65,32 @@
     @media only screen and (max-width: 767px) {
         .toggleNav{
             display:block;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .navbar-collapse.in {
+            overflow-y: inherit;
+        }
+
+        .navbar-collapse{
+            text-align: center;
+            margin: 0px 0px;
+        }
+
+        .navbar-nav {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav > li > a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            line-height: 60px;
+            font-size: 20px;
         }
     }
 
@@ -76,6 +108,8 @@
             margin-top:110px;
         } */
 
+
+
         .site-slogan h1{
             font-family: 'Rancho', cursive;
             font-size: 35px;
@@ -83,15 +117,27 @@
             font-weight: bold;
             margin-top:5px;
         }
+
+        .container h2{
+            font-size: 2vw;
+        }
+
+        .centerText{
+            text-align:center;
+        }
     }
 
-    @media only screen and (min-width: 880px) {
-
+    @media only screen and (min-width: 769px) {
+        .navbar-nav > li {
+            padding: 0px 25px;
+        }
     }
 
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
-
+        .navbar-nav > li {
+            padding: 0px 10px;
+        }
     }
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */

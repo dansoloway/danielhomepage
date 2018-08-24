@@ -25,9 +25,9 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 
 if(mail($to,$subject,$message,$headers)){
-    // $location = 'location: ' . WEB_PATH . 'index.php';
-    // header($location);
-    echo "Mail sent, thanks!";
+    $location = 'location: ' . WEB_PATH . '/contactSuccess';
+    header($location);
+
 }
 else{
     die("Mail not sent, sorry :(");

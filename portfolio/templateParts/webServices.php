@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center title">Types of Web Services</h1>
+                    <h2 class="centerText">Types of Web Services</h1>
                     <div class="separator"></div>
                     <p class="text-center">These are a few of the types of web sites and services that I can build. </p>
                     <div class="row">

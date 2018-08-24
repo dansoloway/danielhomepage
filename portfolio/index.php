@@ -60,7 +60,7 @@ require_once('config.php');
 			<?php require_once LOCAL_PATH . 'templateParts/' . 'callToAction.php'; ?>
 
 			<!-- require features-->
-			<?php require_once LOCAL_PATH . 'templateParts/' . 'features.php'; ?>
+			<?php require_once LOCAL_PATH . 'templateParts/' . 'webServices.php'; ?>
 
 			<!-- require Wordpress-->
 			<?php require_once LOCAL_PATH . 'templateParts/' . 'wordpress.php'; ?>

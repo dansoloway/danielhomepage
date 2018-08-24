@@ -27,10 +27,12 @@
                     </div>
                     <div class="col-md-6">
                         <div class="panel-group panel-dark" id="accordion">
+
+                            <!-- Custom Sites -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseOne">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseOne" class="collapsed wpNoScroll">
                                             <i class="fa fa-gift"></i>Custom Sites
                                         </a>
                                     </h4>
@@ -41,10 +43,12 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Tweaks -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseTwo" class="collapsed">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseTwo" id="#collapseTwo" class="collapsed wpNoScroll">
                                             <i class="fa fa-rocket"></i>Tweaks to Existing Sites
                                         </a>
                                     </h4>
@@ -55,10 +59,12 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Plugins -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseThree" class="collapsed">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseThree" class="collapsed wpNoScroll">
                                             <i class="fa fa-laptop"></i>Custom Plugin and Feature Development
                                         </a>
                                     </h4>
@@ -69,10 +75,12 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Securty -->
                             <dsiv class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a style="margin-top:5px" data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseFour" class="collapsed">
+                                        <a style="margin-top:5px" data-toggle="collapse" data-parent="#accordion" href="<?php echo WEB_PATH ?>#collapseFour" class="collapsed wpNoScroll">
                                             <i class="fa fa-bullhorn"></i>Security and Upkeep
                                         </a>
                                     </h4>

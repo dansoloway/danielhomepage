@@ -47,4 +47,7 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 
+		<!-- Recatcha -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 	</head>

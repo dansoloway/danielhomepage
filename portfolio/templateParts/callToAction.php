@@ -1,11 +1,16 @@
 <!-- page-top start-->
 <!-- ================ -->
-<div class="page-top">
+<div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+
+            <div class="col-md-1">
+                &nbsp;
+            </div>
+
+            <div class="col-md-10">
                 <div class="call-to-action">
-                    <h1 class="title">Thanks for visiting. Let's get familiar!</h1>
+                    <h2>Thanks for visiting Daniel Soloway Web Productions. Let's get familiar!</h1>
 
                     <a class="btn btn-white more" data-toggle="modal" data-target="#myModal">
                     Personal Info <i class="pl-10 fa fa-info"></i>
@@ -19,6 +24,10 @@
                     or
                     <a href="<?php echo WEB_PATH ?>#contact" class="btn btn-default contact">Contact Me <i class="pl-10 fa fa-phone"></i></a>
                 </div>
+            </div>
+
+            <div class="col-md-1">
+                &nbsp;
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 
-require_once('config.php');
+require_once('../config.php');
 // https://htmlcoder.me/preview/idea/v.1.7/html/
 
 

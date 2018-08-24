@@ -1,4 +1,4 @@
-<div class="banner">
+<div class="banner" style="margin-top:110px">
     <?php  // require_once (LOCAL_PATH . 'templateParts/slider.php')	?>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
